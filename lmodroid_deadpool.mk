@@ -8,7 +8,7 @@
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tv.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -19,7 +19,7 @@ PRODUCT_DEVICE := deadpool
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
 PRODUCT_MANUFACTURER := askey
 PRODUCT_MODEL := ADT-3
-PRODUCT_NAME := lineage_deadpool
+PRODUCT_NAME := lmodroid_deadpool
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \
